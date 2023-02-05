@@ -1,0 +1,25 @@
+.aside {
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 300px;
+    margin:auto;
+    text-align: left;
+}
+
+.aside__link {
+    color: rgb(53, 65, 58);
+}
+
+.aside__link:focus {
+    outline: 1px solid hsl(0, 0%, 30%);
+}
+
+.aside__link:hover {
+    color: #222;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.aside__link:active {
+    color: rgb(0, 0, 0)
+}

@@ -1,0 +1,31 @@
+.navigation {
+    list-style: none;
+    text-align: left;
+    display: inline;
+
+
+}
+
+.navigation__item {
+
+    display: inline;
+    padding: 5px;
+}
+
+.navigation__link {
+    width: 200px;
+    color: rgb(85, 85, 85);
+    border: 1px solid hsl(0, 0%, 60%);
+    background-color: rgb(205, 201, 195);
+    text-decoration: none;
+    padding: 5px 10px;
+    box-shadow: 1px -3px 10px -5px rgb(84 84 84);
+    border-radius: 5px;
+    line-height: 2.5;
+}
+
+.navigation__link:hover {
+    color: #222;
+    background-color: hsl(36, 9%, 72%);
+    outline: none;
+}

@@ -1,0 +1,37 @@
+.buttonDownload {
+    color: rgb(85, 85, 85);
+    border: 1px solid hsl(0, 0%, 60%);
+    background-color: rgb(205, 201, 195);
+    text-decoration: none;
+    box-shadow: 1px -3px 10px -5px rgb(84 84 84);
+    border-radius: 5px;   
+    max-width: 180px;
+    margin: 0 auto;
+}
+
+
+.buttonDownload:hover {
+    color: #222;
+    background-color: hsl(36, 9%, 70%);
+    outline: none;
+}
+
+.buttonDownload__link {
+    color: rgb(85, 85, 85);
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    line-height: 2;
+    border-collapse: collapse;
+}
+
+.buttonDownload__link:focus {
+    outline: 1px solid hsl(0, 0%, 30%);
+}
+
+.buttonDownload__link:hover {
+    color: #222;
+    background-color: hsl(36, 9%, 70%);
+    outline: none;
+}

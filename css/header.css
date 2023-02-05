@@ -1,0 +1,27 @@
+.section__image {
+    margin: 10px;
+    padding: 5px;
+    border: 4px double rgb(205, 201, 195);
+    border-radius: 5px;
+}
+
+.section__button {
+    color: rgb(85, 85, 85);
+    border: 1px solid hsl(0, 0%, 60%);
+    background-color: rgb(205, 201, 195);
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 1px -3px 10px -5px rgb(84 84 84);
+    border-radius: 5px;
+}
+
+.section__button:hover {
+    color: #222;
+    background-color: hsl(36, 9%, 72%);
+    outline: none;
+}
+
+.js-imageFunny {
+    content: url(https://i.postimg.cc/7Zbsd2Bn/image-50400769.jpg);
+}

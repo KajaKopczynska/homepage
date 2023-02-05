@@ -1,0 +1,26 @@
+.section__table {
+    font-size: 13px;
+    border-collapse: collapse;
+    width: 30%;
+    margin: auto;
+    overflow-x: auto;
+}
+
+.section__tableHeader {
+    background-color: hsl(36, 9%, 85%);
+    border: 1px solid hsl(0, 0%, 60%);
+    padding: 7px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.section__tableCell {
+    border: 1px solid hsl(0, 0%, 60%);
+    padding: 7px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.section__tableCell:hover {
+    background-color: hsl(36, 9%, 99%);
+}
